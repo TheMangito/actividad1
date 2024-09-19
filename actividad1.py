@@ -2,7 +2,7 @@ import math
 import cv2 as cv
 import numpy as np
 
-img = cv.imread(r"C:\Users\sresm\Documents\ARCHIVOS TEMPORALES\Graficacion\logo1.png", 0)
+img = cv.imread(r"logo1.png", 0)
 x, y = img.shape
 angle = 60
 rotated_img = np.zeros((x, y), dtype=np.uint8)
